@@ -2,7 +2,7 @@
 
 ## **Overview**  
 
-**Web Legacy** is a university web development project that explores the history and evolution of the internet in the United Kingdom. This three-page website presents key milestones, the digital revolution, and how the internet has shaped modern society in the UK.  
+**Web Legacy** is a university web development project that explores the history and evolution of the internet in the United Kingdom. This website presents key milestones, the digital revolution, how the internet has shaped modern society in the UK and even more interesting features.  
 
 The project is built using **HTML, CSS, JavaScript, and JSON data**, with a structured layout, responsive design, and a clean user experience.  
 
