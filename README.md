@@ -84,7 +84,7 @@ web-legacy-project/
 - **CSS3** – Styling the layout, colors, and responsive design.  
 - **JavaScript** – Handling any interactive elements (if applicable).  
 - **JSON** – Managing structured data like references and external links.  
-- **Template Engine** (if used) – For rendering dynamic content efficiently.  
+- **Template Engine** – For rendering dynamic content efficiently.  
 
 ---
 
