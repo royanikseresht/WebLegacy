@@ -2,7 +2,7 @@
 
 ## **Overview**  
 
-**Web Legacy** is a university web development project that explores the history and evolution of the internet in the United Kingdom. This website presents key milestones, the digital revolution, how the internet has shaped modern society in the UK and even more interesting features.  
+**Web Legacy** is a university web development project that explores the history and evolution of the internet in the United Kingdom. This website presents key milestones, the digital revolution, how the internet has shaped modern society in the UK, and more.  
 
 The project is built using **HTML, CSS, JavaScript, and JSON data**, with a structured layout, responsive design, and a clean user experience.  
 
@@ -16,6 +16,8 @@ web-legacy-project/
 ├── images/                # Folder for all project images (logos, hero images, etc.)
 ├── css/                   # Folder for stylesheets
 │   └── styles.css         # Main stylesheet for the website
+├── js/                    # Folder for JavaScript files
+│   └── news.js            # Handles fetching and displaying news articles
 ├── data.json              # Folder for JSON data
 ├── index.html             # Home page
 ├── introduction.html      # Page introducing UK internet history
@@ -26,8 +28,7 @@ web-legacy-project/
 ├── resources.html         # Additional reading materials and references
 ├── support.html           # Contact support page for inquiries
 ├── news.html              # Displays the latest internet-related news with a dynamic layout using Handlebars templates.
-├── news.js                # Fetches news data from an API, processes it, and updates news.html with paginated articles.
-└── README.md              # Documentation file (this file)
+├── README.md              # Documentation file (this file)
 ```
 
 ---
@@ -67,6 +68,11 @@ web-legacy-project/
 - A section **introducing the developer (you!)**, including your **name, age, and picture**.  
 - The layout features **a circular image on the left and personal details on the right**.  
 
+### **9. News Page (`news.html`)**  
+- Displays **real-time internet-related news** fetched dynamically using the News API.  
+- Uses **Handlebars templates** for rendering news articles in a structured format.  
+- Includes **pagination support** to browse multiple pages of news articles.  
+
 ---
 
 ## **Features**  
@@ -77,6 +83,8 @@ web-legacy-project/
 ✅ **Interactive Layout** – Information is structured for easy navigation and readability.  
 ✅ **SEO Optimization** – Proper meta tags and structured content enhance visibility in search engines.  
 ✅ **Web Accessibility** – Designed with accessibility in mind, making the content usable for all users.  
+✅ **Live News Updates** – The **news.html** page fetches and displays the latest internet-related news.  
+✅ **Pagination System** – Users can navigate through multiple pages of news articles.  
 
 ---
 
@@ -84,9 +92,10 @@ web-legacy-project/
 
 - **HTML5** – Structuring the web pages.  
 - **CSS3** – Styling the layout, colors, and responsive design.  
-- **JavaScript** – Handling any interactive elements (if applicable).  
+- **JavaScript** – Handling interactivity and dynamic content rendering.  
 - **JSON** – Managing structured data like references and external links.  
-- **Template Engine** – For rendering dynamic content efficiently.  
+- **News API** – Fetching and displaying the latest internet-related news.  
+- **Handlebars.js** – Rendering dynamic content efficiently on the news page.  
 
 ---
 
@@ -120,24 +129,9 @@ Here are some useful external resources referenced in the project:
     "link": "https://en.wikipedia.org/wiki/Internet_in_the_United_Kingdom"
   },
   {
-    "title": "How Britain got its first internet connection – by the late pioneer who made it happen",
-    "description": "An article about the late pioneer who helped bring the first internet connection to the UK.",
-    "link": "https://theconversation.com/how-britain-got-its-first-internet-connection-by-the-late-pioneer-who-made-it-happen-45404"
-  },
-  {
     "title": "Latest News related to Internet",
     "description": "Stay updated with the latest news and trends related to the internet.",
     "link": "https://www.cnbc.com/internet/"
-  },
-  {
-    "title": "GitHub Repository for VR feature",
-    "description": "Explore the GitHub repository containing the code for the VR feature in the internet history project.",
-    "link": "https://github.com/ZigaoWang/internet-history-3d/tree/main"
-  },
-  {
-    "title": "GitHub Repository (Cheatsheet)",
-    "description": "A collection of useful cheatsheets for various programming languages and tools, available on GitHub.",
-    "link": "https://github.com/rstacruz/cheatsheets"
   }
 ]
 ```
@@ -170,6 +164,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 For any inquiries or suggestions, feel free to reach out:  
 
-- **Developer**: Roya Nikseresht
-- **Email**: rn211@student.london.ac.uk
-- **GitHub**: royanikseresht
+- **Developer**: Roya Nikseresht  
+- **Email**: rn211@student.london.ac.uk  
+- **GitHub**: royanikseresht  
+
