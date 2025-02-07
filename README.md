@@ -25,6 +25,8 @@ web-legacy-project/
 ├── blog.html              # Blog section covering articles about internet history
 ├── resources.html         # Additional reading materials and references
 ├── support.html           # Contact support page for inquiries
+├── news.html              # Displays the latest internet-related news with a dynamic layout using Handlebars templates.
+├── news.js                # Fetches news data from an API, processes it, and updates news.html with paginated articles.
 └── README.md              # Documentation file (this file)
 ```
 
