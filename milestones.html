@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Explore the key milestones that shaped the UK's internet landscape. Learn about the major events and developments in the history of the internet in the UK.">
+        <title>Milestones | Web Legacy</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link  href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" as="font" type="font/woff2" crossorigin="anonymous">
+        <link rel="icon" href="images/logo.webp" type="image/x-icon">
+    </head>    
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.webp" width="24" height="24" alt="Logo">
+        </div>
+        
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html" aria-label="Home">Home</a></li>
+                <li><a href="introduction.html" aria-label="Introduction">Introduction</a></li>
+                <li><a href="milestones.html" aria-label="Milestones" class="active">Milestones</a></li>
+                <li><a href="evolution.html" aria-label="Evolution">Evolution</a></li>
+                <li><a href="news.html" aria-label="News">Latest News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Milestone Section -->
+    <section class="intro-header">
+        <h1>Milestones of the Internet in the UK</h1>
+        <p class="intro-description">Exploring the key milestones that shaped the UK's internet landscape.</p>
+    </section>
+
+    <!-- Milestones Section -->
+    <section class="milestones-container" id="milestones-container">
+        <h2>Milestones Content</h2>
+    </section>
+
+    <!-- Handlebars Template -->
+    <script id="milestones-template" type="text/x-handlebars-template">
+        {{#each milestones}}
+        <div class="milestone {{#if even}}right{{else}}left{{/if}}">
+            <div class="milestone-card">
+                <h2>{{title}}</h2>
+                <p>{{description}}</p>
+                <p>{{description2}}</p>
+                <p>{{description3}}</p>
+            </div>
+        </div>
+        {{/each}}
+    </script>
+
+    <!-- JavaScript to Load Data -->
+    <script>
+        fetch("data.json")
+            .then(response => response.json())
+            .then(data => {
+                const source = document.getElementById("milestones-template").innerHTML;
+                const template = Handlebars.compile(source);
+                const milestones = data.milestones.map((milestone, index) => ({
+                    ...milestone,
+                    even: index % 2 === 0 // Determines left or right position
+                }));
+                const html = template({ milestones });
+                document.getElementById("milestones-container").innerHTML = html;
+            })
+            .catch(error => console.error("Error loading data:", error));
+    </script>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="logo2">
+                    <img src="images/logo2.webp" width="24" height="24" alt="Logo">
+                </div>
+                <div class="social-icons">
+                    <a href="#" aria-label="Follow on X"><img src="images/x.webp" width="24" height="24" loading="lazy" alt="X"></a>
+                    <a href="#" aria-label="Follow on Instagram"><img src="images/instagram.webp" width="24" height="24" loading="lazy" alt="Instagram"></a>
+                    <a href="#" aria-label="Follow on YouTube"><img src="images/youtube.webp" width="24" height="24" loading="lazy" alt="YouTube"></a>
+                    <a href="#" aria-label="Follow on LinkedIn"><img src="images/linkedin.webp" width="24" height="24" loading="lazy" alt="LinkedIn"></a>
+                </div>
+            </div>
+            <div class="resources">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="support.html">Contact Support</a></li>
+                    <li><a href="developers.html">Developers</a></li>
+                    <li><a href="resources.html">Resource Library</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2025 Web Legacy. All Rights Reserved.</p>
+    </footer>
+    
+    <button id="back-to-top" class="back-to-top" aria-label="Go Top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 15l7-7 7 7"></path>
+        </svg>
+    </button>    
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const backToTopButton = document.getElementById("back-to-top");
+    
+            // Show or hide button based on scroll position
+            window.addEventListener("scroll", function () {
+                if (window.scrollY > 100) { // Show button after scrolling down 100px
+                    backToTopButton.style.display = "block";
+                } else {
+                    backToTopButton.style.display = "none";
+                }
+            });
+    
+            // Smooth scroll to top when clicked
+            backToTopButton.addEventListener("click", function () {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            });
+        });
+    </script>
+
+</body>
+</html>

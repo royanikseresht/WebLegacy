@@ -1,0 +1,227 @@
+{
+        "introduction": [
+            {
+                "title": "In the beginning...",
+                "content": "The evolution of the internet in the United Kingdom from 2001 to the present has been marked by significant advancements in infrastructure, regulatory developments, and widespread adoption across various sectors.",
+                "image": "images/first.webp"
+            },
+            {
+                "title":"Infrastructure and Broadband Expansion",
+                "content": "In the early 2000s, the UK began transitioning from dial-up connections to broadband internet. By 2009, BT announced plans to connect 2.5 million homes to a higher-speed Fibre to the Premises (FTTP) network by 2012, aiming to cover 25% of the UK. However, by September 2015, only 250,000 homes were connected. To accelerate the rollout, Openreach, a subsidiary of BT, proposed in 2017 to offer super-fast fibre broadband to 10 million homes by 2025, utilizing FTTP technology.",
+                "image": "images/second.webp"
+            },
+            {
+                "content": "The government's 'Digital Britain' report in 2009 outlined a strategic vision to ensure the UK remained at the forefront of the global digital economy. One of its key recommendations was universal broadband access by 2012, with a minimum speed of 2 Mbit/s.",
+                "image": "images/third.webp"
+            },
+            {
+                "title": "Regulatory Developments",
+                "content": "In 2003, the Office of Communications (Ofcom) was established as a 'super-regulator' to oversee the rapidly converging media channels through digital transmission. Ofcom inherited duties from five different regulators, including the Broadcasting Standards Commission and the Office of Telecommunications (Oftel).",
+                "image": "images/fourth.webp"
+            },
+            {
+                "content": "In 2015, Ofcom mandated that telephone companies provide customers with clear charges for calling numbers starting with 084, 087, and 09, aiming to increase transparency and protect consumers.",
+                "image": "images/fifth.webp"
+            },
+            {
+                "title": "Adoption and Usage",
+                "content": "The share of households with internet access in the UK grew from 9% in 1998 to 93% in 2019. By 2019, virtually all adults aged 16 to 44 were recent internet users (99%), compared with 47% of adults aged 75 and over.",
+                "image": "images/thirteen.webp"
+            },
+            {
+                "title": "Technological Advancements",
+                "content":"The UK has been proactive in adopting new internet technologies. For instance, the deployment of IPv6 has seen significant progress, with major ISPs like BT Group and Sky Broadband enabling IPv6 connectivity for their customers. As of April 2022, the UK's IPv6 adoption level reached 43.55%.",
+                "image": "images/fourteen.webp"
+            },
+            
+            {
+                "content": "In summary, from 2001 to the present, the UK's internet landscape has transformed dramatically, characterized by substantial infrastructure investments, regulatory reforms, and widespread adoption, positioning the nation as a leader in the global digital economy.",
+                "image": "images/fifteen.webp"
+            }
+        
+        ],
+
+        "milestones": [
+            {
+                "title": "2001–2010: Broadband Expansion and Regulatory Developments",
+                "description": "2003: The Office of Communications (Ofcom) is established, consolidating five regulatory bodies to oversee the converging media and telecommunications sectors.",
+                "description2":"2007: Over half of UK households have broadband access, with an average connection speed of 4.6 Mbit/s. Bundled communication deals, combining broadband, digital TV, mobile, and landline services, are adopted by 40% of households."
+            },
+            {
+                "title": "2010–2020: Mobile Internet and Fiber Optic Growth",
+                "description": "2012: The London Internet Exchange (LINX) becomes the first internet exchange globally to install a Juniper PTX5000 in a live network, enhancing data routing efficiency.",
+                "description2": "2019: Major mobile operators, including EE, Three, Vodafone, and O2, launch 5G services, offering faster and more reliable connectivity."
+            },
+            {
+                "title": "2020–2025: Universal Service and Digital Inclusion",
+                "description": "March 2020: The UK government implements a universal service obligation, granting all homes and businesses the right to request a 'decent and affordable' broadband connection.",
+                "description2": "2020: The COVID-19 pandemic leads to a doubling of internet use in the UK, highlighting the critical importance of digital connectivity.",
+                "description3": "2025: The UK's 140-year-old copper network, maintained by Openreach, is set to be withdrawn by December 2025, with extensions in certain areas to January 2027 to accommodate specific needs. "
+            }
+            
+        ],
+ 
+        "evolution": [
+            {
+                "year": "1970",
+                "title": "Plugging it in…",
+                "description": "Technicians at Lawrence Livermore National Laboratory in the mid-1970s. Lawrence Livermore National Laboratory",
+                "image": "images/second.webp",
+                "position": { "x": 0, "y": 1, "z": -5 }
+            },
+            {
+                "year": "1960",
+                "title": "Early Networking Efforts",
+                "description": "A CDC 7600 mainframe computer fills an entire room at Lawrence Livermore National Laboratory, California, mid-1970s. Lawrence Livermore National Laboratory, CC BY-NC-SA",
+                "image": "images/first.webp",
+                "position": { "x": 0, "y": 1, "z": -10 }
+            },
+            {
+                "year": "1969",
+                "title": "Interface Message Processor",
+                "description": "An interface message processor used to connect Arpanet nodes. About the size of a wardrobe, it is the type that would have been impounded by customs. Steve Jurvetson, CC BY-SA",
+                "image": "images/sixth.webp",
+                "position": { "x": 2, "y": 1, "z": -15 }
+            },
+            {
+                "year": "1977",
+                "title": "Arpanet Expands",
+                "description": "Arpanet map in 1977. The satellite connection from SDAC to NORSAR and then to London is visible bottom right, with the large box bottom right representing the computers available at the Rutherford and Appleton Laboratories, Royal Signals and Radar Establishment, and elsewhere. The Computer History Museum",
+                "image": "images/eight.webp",
+                "position": { "x": -2, "y": 1, "z": -20 }
+            },
+            {
+                "year": "1976",
+                "title": "Queen Elizabeth II Sends an Email",
+                "description": "Her Majesty Queen Elizabeth II sends her first email, and the first email sent by a head of state, at the Royal Radar Establishment in 1976. Peter Kirstein",
+                "image": "images/nine.webp",
+                "position": { "x": 3, "y": 1, "z": -25 }
+            },
+            {
+                "year": "1977",
+                "title": "First TCP/IP Internet Experiment",
+                "description": "Stanford Research Institute’s Packet Radio Van, used in the first TCP/IP internet experiments. The van drove across the Golden Gate Bridge while transmitting, and the steel girders interrupted the signal. But when it exited the bridge, the transmission picked up where it left off. SRI International, CC BY-SA",
+                "image": "images/ten.webp",
+                "position": { "x": -3, "y": 1, "z": -30 }
+            },
+            {
+                "year": "1983",
+                "title": "Birth of the Internet",
+                "description": "Schematic of the first internet demonstration, connecting three different networks, PRNET, ARPANET, and SATNET, with TCP/IP. This was the first connection that created a ‘network of networks’, as the internet would become. Computer History Museum",
+                "image": "images/twelve.webp",
+                "position": { "x": 0, "y": 1, "z": -35 }
+            }
+        ],
+
+        "blogs": [
+            {
+                "title": "Amazon to face legal action after Quebec warehouse closures trigger mass layoffs",
+                "date": "February 2025",
+                "description": "Amazon is set to face legal action after the company shut down seven warehouses in Quebec. The closures led to the loss of at least 1,700 jobs.",
+                "image": "images/blog1.webp",
+                "link": "blog.html"
+            },
+            {
+                "title": "How DeepSeek and next-generation AI agents could erode value of language models",
+                "date": "January 2025",
+                "description": "Executives at leading AI labs say that large language models like those from OpenAI and Big Tech firms risk becoming commoditized in 2025.",
+                "image": "images/blog2.webp",
+                "link": "blog.html"
+            },
+            {
+                "title": "Spotify shares pop 13% after company reports first profitable year",
+                "date": "February 2025",
+                "description": "Spotify shares climbed 13% after the music streaming company recorded its first full year of profitability. The company said it paid a record $10 billion in royalties to the music industry in 2024.",
+                "image": "images/blog3.webp",
+                "link": "blog.html"
+            },
+            {
+                "title": "I’ve studied over 200 kids—the highly successful ones have parents who did 9 things early on",
+                "date": "February 2025",
+                "description": "Raising successful kids starts with the right parenting strategies. Based on a study of over 200 children, this article explores nine key habits that highly successful parents adopt early on to set their kids up for achievement.",
+                "image": "images/blog4.webp",
+                "link": "blog.html"
+            },
+            {
+                "title": "Instagram tests Reels pause feature as TikTok remains in limbo",
+                "date": "January 2025",
+                "description": "Meta is testing a highly requested pause feature with a small group of users on Instagram Reels. The new feature is the latest sign that Meta is looking to capitalize on TikTok’s uncertain future in the U.S.",
+                "image": "images/blog5.webp",
+                "link": "blog.html"
+            },
+            {
+                "title": "Google removes pledge to not use AI for weapons, surveillance",
+                "date": "February 2025",
+                "description": "Google has removed a pledge to abstain from using AI for potentially harmful applications, such as weapons and surveillance, according to the company’s updated “AI Principles.”",
+                "image": "images/blog6.webp",
+                "link": "blog.html"
+            }
+        ],
+        
+        "faqs": [
+            {
+                "question": "Who are we?",
+                "answer": "We are Web Legacy, a team dedicated to exploring the history of the internet and its evolution. Our goal is to provide insightful content, resources, and tools that help people understand the digital world we live in."
+            },
+            {
+                "question": "What is Web Legacy?",
+                "answer": "Web Legacy is an online platform that explores the history, milestones, and evolution of the internet. Through articles, interactive experiences, and educational resources, we aim to inspire curiosity about the digital age."
+            },
+            {
+                "question": "What can I find on Web Legacy?",
+                "answer": "On Web Legacy, you can find articles, blog posts, educational resources, and immersive experiences related to the history and development of the internet."
+            },
+            {
+                "question": "How can I contact Web Legacy?",
+                "answer": "If you have any questions or feedback, you can contact us. We're here to help!"
+            },
+            {
+                "question": "What makes Web Legacy different from other platforms?",
+                "answer": "At Web Legacy, we focus not only on the present but also on the rich history and evolution of the internet."
+            }
+        ],
+                  
+        "developers": [
+            {
+                "name": "Roya Nikseresht",
+                "age": "24",
+                "image": "images/profile.webp",
+                "bio": "I am a dedicated Computer Science student with a passion for Data Science, Machine Learning and Artificial Intelligence. My journey from Chemical Engineering to the world of programming, data analysis, and machine learning has been an exciting transition. I am committed to honing my skills in Python and exploring the dynamic field of Data Science, Machine Learning and Artificial Intelligence. Alongside my studies, I am super passionate about chess, graphic design, UI/UX design and enjoy exploring creative ways to visualize data and convey complex information.",
+                "linkedin": "https://linkedin.com/in/royanikseresht",
+                "github": "https://github.com/royanikseresht"
+            }
+        ],
+
+        "resources": [
+            {
+                "title": "IPv6 deployment",
+                "description": "Information on the adoption and deployment of IPv6 in the UK and worldwide, including technical details and policy impacts.",
+                "link": "https://en.wikipedia.org/wiki/IPv6_deployment"
+            },
+            {
+                "title": "Internet in the United Kingdom",
+                "description": "An overview of how the internet evolved in the UK, from early networks to broadband.",
+                "link": "https://en.wikipedia.org/wiki/Internet_in_the_United_Kingdom"
+            },
+            {
+                "title": "How Britain got its first internet connection – by the late pioneer who made it happen",
+                "description": "An article about the late pioneer who helped bring the first internet connection to the UK.",
+                "link": "https://theconversation.com/how-britain-got-its-first-internet-connection-by-the-late-pioneer-who-made-it-happen-45404"
+            },
+            {
+                "title": "Latest News related to Internet",
+                "description": "Stay updated with the latest news and trends related to the internet.",
+                "link": "https://www.cnbc.com/internet/"
+            },
+            {
+                "title": "GitHub Repository for VR feature",
+                "description": "Explore the GitHub repository containing the code for the VR feature in the internet history project.",
+                "link": "https://github.com/ZigaoWang/internet-history-3d/tree/main"
+            },
+            {
+                "title": "GitHub Repository (Cheatsheet)",
+                "description": "A collection of useful cheatsheets for various programming languages and tools, available on GitHub.",
+                "link": "https://github.com/rstacruz/cheatsheets"
+            }
+        ]   
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stay updated with the latest developments in internet history and technology. Read news articles and explore key milestones in the internet's evolution.">
+    <title>Latest News | Web Legacy</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link  href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" as="font" type="font/woff2" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <link rel="icon" href="images/logo.webp" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.webp" width="24" height="24" alt="Web Legacy Logo">
+        </div>
+        
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html" aria-label="Home">Home</a></li>
+                <li><a href="introduction.html" aria-label="Introduction">Introduction</a></li>
+                <li><a href="milestones.html" aria-label="Milestones">Milestones</a></li>
+                <li><a href="evolution.html" aria-label="Evolution">Evolution</a></li>
+                <li><a href="news.html" aria-label="News" class="active">Latest News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Title -->
+    <section class="intro-header">
+        <h1>Latest Internet News</h1>
+        <p class="intro-description">Stay updated with the latest developments in internet history and technology.</p>
+    </section>
+
+    <!-- News Container -->
+    <section id="news-container">
+        <h2>Latest News...</h2>
+    </section>
+
+    <!-- Pagination Controls -->
+    <section id="pagination-container">
+        <h2>...</h2>
+    </section>
+
+    <!-- Handlebars Template -->
+    <script id="news-template" type="text/x-handlebars-template">
+        {{#each articles}}
+        <div class="news-card">
+            <h2>{{title}}</h2>
+            <p>{{description}}</p>
+            <a href="{{url}}" target="_blank" class="read-more" aria-label="Read More" alt="Read more about {{title}}">
+                Read More
+            </a>
+        </div>
+        {{/each}}
+    </script>
+    
+    <!-- JavaScript to Fetch News -->
+    <script src="js/news.js"></script>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="logo2">
+                    <img src="images/logo2.webp" width="24" height="24" alt="Web Legacy Logo">
+                </div>
+                <div class="social-icons">
+                    <a href="#" aria-label="Follow on X"><img src="images/x.webp" width="24" height="24" loading="lazy" alt="Follow us on X"></a>
+                    <a href="#" aria-label="Follow on Instagram"><img src="images/instagram.webp" width="24" height="24" loading="lazy" alt="Follow us on Instagram"></a>
+                    <a href="#" aria-label="Follow on YouTube"><img src="images/youtube.webp" width="24" height="24" loading="lazy" alt="Follow us on YouTube"></a>
+                    <a href="#" aria-label="Follow on LinkedIn"><img src="images/linkedin.webp" width="24" height="24" loading="lazy" alt="Follow us on LinkedIn"></a>
+                </div>
+            </div>
+            <div class="resources">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="support.html">Contact Support</a></li>
+                    <li><a href="developers.html">Developers</a></li>
+                    <li><a href="resources.html">Resource Library</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2025 Web Legacy. All Rights Reserved.</p>
+    </footer>
+    
+    <button id="back-to-top" class="back-to-top" aria-label="Go Top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 15l7-7 7 7"></path>
+        </svg>
+    </button>    
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const backToTopButton = document.getElementById("back-to-top");
+    
+            // Show or hide button based on scroll position
+            window.addEventListener("scroll", function () {
+                if (window.scrollY > 100) { // Show button after scrolling down 100px
+                    backToTopButton.style.display = "block";
+                } else {
+                    backToTopButton.style.display = "none";
+                }
+            });
+    
+            // Smooth scroll to top when clicked
+            backToTopButton.addEventListener("click", function () {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            });
+        });
+    </script>
+
+</body>
+</html>
