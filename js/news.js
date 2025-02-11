@@ -1,4 +1,4 @@
-const API_KEY = "ac9fa5ba697d4ce098f19628e56f1471"; 
+const API_KEY = "..."; 
 // My API Key 
 // (I didn't remove this from my code while submitting the project for testing, I know this should not be published publicly)
 
