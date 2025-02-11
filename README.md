@@ -85,6 +85,11 @@ web-legacy-project/
 ✅ **Web Accessibility** – Designed with accessibility in mind, making the content usable for all users.  
 ✅ **Live News Updates** – The **news.html** page fetches and displays the latest internet-related news.  
 ✅ **Pagination System** – Users can navigate through multiple pages of news articles.  
+✅ **Interactive Timeline** – Implement a timeline feature to showcase internet history dynamically.  
+✅ **VR Integration** – Potentially incorporate a VR experience for a more immersive historical journey.  
+✅ **Multimedia Content** – Adding videos, podcasts, and interviews about the internet’s evolution.  
+✅ **User Feedback System** – Implement a form where visitors can share thoughts or suggest improvements.  
+✅ **Enhanced Accessibility** – Further improvements for users with disabilities, including better screen reader support.  
 
 ---
 
@@ -155,16 +160,6 @@ Here are some useful external resources referenced in the project:
             }
         ]   
 ```
-
----
-
-## **Future Enhancements**  
-
-🔹 **Interactive Timeline** – Implement a timeline feature to showcase internet history dynamically.  
-🔹 **VR Integration** – Potentially incorporate a VR experience for a more immersive historical journey.  
-🔹 **Multimedia Content** – Adding videos, podcasts, and interviews about the internet’s evolution.  
-🔹 **User Feedback System** – Implement a form where visitors can share thoughts or suggest improvements.  
-🔹 **Enhanced Accessibility** – Further improvements for users with disabilities, including better screen reader support.  
 
 ---
 
