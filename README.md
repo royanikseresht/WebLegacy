@@ -123,17 +123,37 @@ Here are some useful external resources referenced in the project:
 
 ```json
 "resources": [
-  {
-    "title": "Internet in the United Kingdom",
-    "description": "An overview of how the internet evolved in the UK, from early networks to broadband.",
-    "link": "https://en.wikipedia.org/wiki/Internet_in_the_United_Kingdom"
-  },
-  {
-    "title": "Latest News related to Internet",
-    "description": "Stay updated with the latest news and trends related to the internet.",
-    "link": "https://www.cnbc.com/internet/"
-  }
-]
+            {
+                "title": "IPv6 deployment",
+                "description": "Information on the adoption and deployment of IPv6 in the UK and worldwide, including technical details and policy impacts.",
+                "link": "https://en.wikipedia.org/wiki/IPv6_deployment"
+            },
+            {
+                "title": "Internet in the United Kingdom",
+                "description": "An overview of how the internet evolved in the UK, from early networks to broadband.",
+                "link": "https://en.wikipedia.org/wiki/Internet_in_the_United_Kingdom"
+            },
+            {
+                "title": "How Britain got its first internet connection – by the late pioneer who made it happen",
+                "description": "An article about the late pioneer who helped bring the first internet connection to the UK.",
+                "link": "https://theconversation.com/how-britain-got-its-first-internet-connection-by-the-late-pioneer-who-made-it-happen-45404"
+            },
+            {
+                "title": "Latest News related to Internet",
+                "description": "Stay updated with the latest news and trends related to the internet.",
+                "link": "https://www.cnbc.com/internet/"
+            },
+            {
+                "title": "GitHub Repository for VR feature",
+                "description": "Explore the GitHub repository containing the code for the VR feature in the internet history project.",
+                "link": "https://github.com/ZigaoWang/internet-history-3d/tree/main"
+            },
+            {
+                "title": "GitHub Repository (Cheatsheet)",
+                "description": "A collection of useful cheatsheets for various programming languages and tools, available on GitHub.",
+                "link": "https://github.com/rstacruz/cheatsheets"
+            }
+        ]   
 ```
 
 ---
